@@ -1,0 +1,24 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: name
+  description: description
+  config:
+    required: true
+- type: textarea
+  name: text
+  label: Text
+  hidden: true
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: images_
+  label: Images?
+pages:
+- _posts/hi-!.md
