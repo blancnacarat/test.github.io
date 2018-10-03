@@ -22,12 +22,13 @@ fields:
   label: Apperçu
   description: Image de couverture de l'article
 - type: textarea
-  name: text
-  label: Text
-  hidden: true
+  name: excerpt
+  label: Intro
+  hidden: false
   config:
     wysiwyg: true
     schema:
       format: markdown
+  description: phrase d'accroche
 pages:
 - _posts/hi-!.md
