@@ -1,12 +1,12 @@
 ---
-label: post
+label: Article
 hide_body: false
 is_partial: false
 fields:
 - type: text
-  label: title
-  name: name
-  description: description
+  label: Titre
+  name: title
+  description: titre de l'artcile
   config:
     required: true
 - type: textarea
