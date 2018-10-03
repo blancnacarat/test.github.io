@@ -37,7 +37,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  name: article
+  name: content
 - type: tag_list
   name: tags
   label: Référencement
