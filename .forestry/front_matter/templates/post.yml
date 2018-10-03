@@ -9,6 +9,18 @@ fields:
   description: titre de l'artcile
   config:
     required: true
+- type: datetime
+  label: Date
+  name: date
+  description: Date de publication
+  config:
+    date_format: MM/DD/YYYY
+    time_format: h:mm
+    required: true
+- type: file
+  name: image
+  label: Apperçu
+  description: Image de couverture de l'article
 - type: textarea
   name: text
   label: Text
@@ -17,8 +29,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: file
-  name: images_
-  label: Images?
 pages:
 - _posts/hi-!.md
