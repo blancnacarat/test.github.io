@@ -38,5 +38,9 @@ fields:
     schema:
       format: markdown
   name: article
+- type: tag_list
+  name: tags
+  label: Référencement
+  description: mots-clés
 pages:
 - _posts/hi-!.md
