@@ -15,12 +15,8 @@ fields:
   description: Date de publication
   config:
     date_format: MM/DD/YYYY
-    time_format: h:mm
+    time_format: ''
     required: true
-- type: file
-  name: image
-  label: Apperçu
-  description: Image de couverture de l'article
 - type: textarea
   name: excerpt
   label: Intro
@@ -30,5 +26,17 @@ fields:
     schema:
       format: markdown
   description: phrase d'accroche
+- type: file
+  name: image
+  label: Apperçu
+  description: Image de couverture de l'article
+- type: textarea
+  label: Article
+  description: contenu
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  name: article
 pages:
 - _posts/hi-!.md
