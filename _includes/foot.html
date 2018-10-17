@@ -1,22 +1,27 @@
 <footer id="footer">
   <section>
-    <form method="POST" action="https://formspree.io/{{site.email}}">
-      <div class="field">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-      </div>
-      <div class="field">
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" />
-      </div>
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="3"></textarea>
-      </div>
-      <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
-      </ul>
-    </form>
+    <form action="https://formspree.io/{{ site.email }}" method="POST">
+        <input type="hidden" name="_language" value="{{ page.lang }}" />
+        <input type="hidden" name="_format" value="plain" />
+        <input type="hidden" name="_next" value="https://blancnacarat.github.io/fr/merci">
+        <div class="field half first">
+          <label for="name">Nom*</label>
+          <input type="text" name="name" required id="name" placeholder="ex: Jean-Pierre" />
+        </div>
+        <div class="field half">
+          <label for="email">Email</label>
+          <input type="text" name="_replyto" required id="email" placeholder="ex: adresse@gmail.com" />
+        </div>
+        <div class="field">
+          <label for="message">Message*</label>
+          <textarea name="message" id="message" style="resize:vertical" rows="6" required placeholder="ex: Salut ! J'adore ce que vous faites... Bonjour, est-ce qu'on peut se rencontrer..."></textarea>
+        </div>
+        <section class="actions">
+          <li><input type="submit" value="Envoyer" class="special"/></li>
+          <br>
+          <li><input type="reset" value="Annuler" /></li>
+        </section>
+      </form>
   </section>
   <section class="split contact">
     <section class="alt">
@@ -37,7 +42,7 @@
         <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
         <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
         <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-        <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://soundcloud.com/{{site.soundcloud}}" class="icon fa-soundcloud" rel="nofollow"><span class="label">Soundcloud</span></a></li>
       </ul>
     </section>
   </section>
