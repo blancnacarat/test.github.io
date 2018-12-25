@@ -1812,11 +1812,11 @@
 	}
 
 	input, select, textarea {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	a {
-		color: #212931;
+		color: #FFF9F3;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -1826,11 +1826,11 @@
 		}
 
 	strong, b {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	blockquote {
@@ -2021,8 +2021,8 @@
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #FFF9F3;
+		color: #FFF9F3 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2039,7 +2039,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #212931;
+			background-color: #FFF9F3;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2320,7 +2320,7 @@
 	}
 
 	label {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	input[type="text"],
@@ -2341,7 +2341,7 @@
 
 	select option {
 		background-color: #ffffff;
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	.select-wrapper:before {
@@ -2350,7 +2350,7 @@
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2360,8 +2360,8 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
+		background-color: #FFF9F3;
+		border-color: #FFF9F3;
 		color: #ffffff;
 	}
 
@@ -2888,7 +2888,7 @@
 		}
 
 	table th {
-		color: #212931;
+		color: #FFF9F3;
 	}
 
 	table thead {
@@ -2989,7 +2989,7 @@
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: #FFF9F3 !important;
 	}
 
 		.pagination a:hover {
@@ -3028,7 +3028,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
+			background-color: #FFF9F3;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -4325,7 +4325,7 @@
 		#navPanelToggle.alt {
 			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: #FFF9F3;
 		}
 
 			#navPanelToggle.alt:hover {
@@ -4362,7 +4362,7 @@
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
-		color: #212931;
+		color: #FFF9F3;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4437,7 +4437,7 @@
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #FFF9F3;
 			}
 
 			@media screen and (max-width: 736px) {
