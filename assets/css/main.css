@@ -3029,7 +3029,7 @@
 			width: 100%;
 			height: 100%;
 			background-color: #FFF9F3;
-			
+		
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3122,19 +3122,19 @@
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #FF0F53 !important;
+				color: #B20A3A !important;
 			}
 
 		#intro strong, #intro b {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#intro blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #FF0F53;
 		}
 
 		#intro code {
