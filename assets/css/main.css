@@ -3341,11 +3341,11 @@
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#header blockquote {
@@ -3455,7 +3455,7 @@
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #FF0F53;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3465,11 +3465,11 @@
 			}
 
 		#nav strong, #nav b {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #ffffff;
+			color: #FF0F53;
 		}
 
 		#nav blockquote {
