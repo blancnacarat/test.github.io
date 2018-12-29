@@ -3759,7 +3759,7 @@
 		display: -ms-flex;
 		display: flex;
 		background-color: #f5f5f5;
-		color: #909498;
+		color: #FF0F53;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
@@ -3831,7 +3831,7 @@
 			#footer input[type="button"].special,
 			#footer button.special,
 			#footer .button.special {
-				background-color: #717981;
+				background-color: #FF0F53;
 				box-shadow: none;
 				color: #f5f5f5 !important;
 			}
@@ -3853,7 +3853,7 @@
 		#footer input[type="email"],
 		#footer select,
 		#footer textarea {
-			border-color: #e2e2e2;
+			border-color: #FF0F53;
 		}
 
 			#footer input[type="text"]:focus,
