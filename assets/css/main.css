@@ -3754,7 +3754,7 @@
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: #ffffff;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3846,7 +3846,7 @@
 				}
 
 		#footer label {
-			color: #717981;
+			color: #FF0F53;
 		}
 
 		#footer input[type="text"],
