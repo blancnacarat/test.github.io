@@ -1822,7 +1822,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #FF0F53 !important;
+			color: #B20A3A !important;
 		}
 
 	strong, b {
@@ -2031,7 +2031,7 @@
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #FF0F53;
-			color: #FF0F53 !important;
+			color: #B20A3A !important;
 		}
 
 		input[type="submit"].special,
@@ -2049,7 +2049,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #FF0F53;
+				background-color: #B20A3A;
 			}
 
 /* Form */
@@ -2694,7 +2694,7 @@
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #FF0F53;
+		color: #B20A3A;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2702,7 +2702,7 @@
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #FF0F53;
+		box-shadow: inset 0 0 0 2px #B20A3A;
 	}
 
 /* Section/Article */
@@ -2993,13 +2993,13 @@
 	}
 
 		.pagination a:hover {
-			color: #FF0F53 !important;
-			border-color: #FF0F53;
+			color: #B20A3A !important;
+			border-color: #B20A3A;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #FF0F53;
+				border-left-color: #B20A3A;
 			}
 
 		.pagination a.active {
@@ -3160,8 +3160,8 @@
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #FF0F53;
-				color: #FF0F53 !important;
+				box-shadow: inset 0 0 0 2px #B20A3A;
+				color: #B20A3A !important;
 			}
 
 			#intro input[type="submit"].special,
@@ -3179,7 +3179,7 @@
 				#intro input[type="button"].special:hover,
 				#intro button.special:hover,
 				#intro .button.special:hover {
-					background-color: #FF0F53;
+					background-color: #B20A3A;
 				}
 
 		#intro h1 {
@@ -3336,7 +3336,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #FF0F53 !important;
+				color: #B20A3A !important;
 			}
 
 		#header strong, #header b {
@@ -3348,16 +3348,16 @@
 		}
 
 		#header blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #FF0F53;
 		}
 
 		#header code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #FF0F53;
 		}
 
 		#header hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #FF0F53;
 		}
 
 		#header .logo {
@@ -3383,8 +3383,8 @@
 		}
 
 			#header .logo:hover {
-				border-color: #FF0F53 !important;
-				color: #FF0F53 !important;
+				border-color: #B20A3A !important;
+				color: #B20A3A !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3446,7 +3446,7 @@
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #FF0F53;
+			box-shadow: inset 0 0 0 2px #B20A3A;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3460,7 +3460,7 @@
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #FF0F53 !important;
+				color: #B20A3A !important;
 			}
 
 		#nav strong, #nav b {
@@ -3780,7 +3780,7 @@
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #FF0F53 !important;
+				color: #B20A3A !important;
 			}
 
 		#footer strong, #footer b {
@@ -3823,8 +3823,8 @@
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #FF0F53;
-				color: #FF0F53 !important;
+				box-shadow: inset 0 0 0 2px #B20A3A;
+				color: #B20A3A !important;
 			}
 
 			#footer input[type="submit"].special,
@@ -3842,7 +3842,7 @@
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #FF0F53;
+					background-color: #B20A3A;
 				}
 
 		#footer label {
@@ -3921,7 +3921,7 @@
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #FF0F53;
+			color: #B20A3A;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -3929,7 +3929,7 @@
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #FF0F53;
+			box-shadow: inset 0 0 0 2px #B20A3A;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -3970,12 +3970,12 @@
 
 			#footer .pagination a:hover {
 				color: #FF0F53 !important;
-				border-color: #FF0F53;
+				border-color: #B20A3A;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a, #footer .pagination a:hover + span {
-					border-left-color: #FF0F53;
+					border-left-color: #B20A3A;
 				}
 
 			#footer .pagination a.active {
@@ -4212,7 +4212,7 @@
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #FF0F53 !important;
+				color: #B20A3A !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4328,7 +4328,7 @@
 		}
 
 			#navPanelToggle.alt:hover {
-				background-color: #ffffff;
+				background-color: #B20A3A;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4436,7 +4436,7 @@
 			}
 
 			#navPanel .close:hover {
-				color: #FFF9F3;
+				color: #B20A3A;
 			}
 
 			@media screen and (max-width: 736px) {
