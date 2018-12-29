@@ -1715,7 +1715,7 @@
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border-bottom: 0;
-			color: inherit;
+			color: #FF0F53;
 			text-decoration: none;
 		}
 
@@ -1816,7 +1816,7 @@
 	}
 
 	a {
-		color: #FFF9F3;
+		color: #FF0F53;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
