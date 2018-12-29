@@ -3532,11 +3532,11 @@
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #FF0F53;
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #FF0F53 !important;
+							color: #B20A3A !important;
 						}
 
 		#nav ul.icons {
