@@ -3787,24 +3787,24 @@
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #FF0F53;
 		}
 
 		#footer blockquote {
-			border-left-color: #e2e2e2;
+			border-left-color: #FF0F53;
 		}
 
 		#footer code {
 			background: rgba(220, 220, 220, 0.5);
-			border-color: #e2e2e2;
+			border-color: #FF0F53;
 		}
 
 		#footer hr {
-			border-bottom-color: #e2e2e2;
+			border-bottom-color: #FF0F53;
 		}
 
 		#footer .box {
-			border-color: #e2e2e2;
+			border-color: #FF0F53;
 		}
 
 		#footer input[type="submit"],
