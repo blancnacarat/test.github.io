@@ -35,14 +35,15 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
+twitter:            blancnacarat
+facebook:           blanc.nacarat/
+instagram:          blanc.nacarat/
 github:             default
+soundcloud:         blanc-nacarat/
 
 # personal
 location:           Paris, France
-phone:              310-318-5555
+phone:              (+33)1 00 00 00 00
 email:              mag@blancnacarat.com
 
 # Gems
