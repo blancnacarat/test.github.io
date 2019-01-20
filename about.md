@@ -7,22 +7,17 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-<box><b> Nous sommes un jeune label indépendant pour musiciens, vidéastes, auteurs, photographes et graphistes.
+Nous sommes un jeune label indépendant pour musiciens, vidéastes, auteurs, photographes et graphistes.
     <br>
     <p class="logo" style="padding-left: 0em;padding-right: 0em;margin-bottom: 0px;"><strong> Blanc Nacarat&nbsp;</strong></p>se veut une structure polyvalente accueillant non seulement des musiciens dans le champ de la musique électronique mais également des artistes travaillant sur d’autres supports afin de proposer une offre culturelle jeune et variée tout en croisant plusieurs disciplines artistiques.
-</b></box>
-
-<box>
-    <b> Notre objectif ?
-    <br> Mettre en avant de jeunes artistes afin de faciliter leur insertion en tant que professionnels, et, à terme, établir un véritable collectif à même de monter des projets groupés aussi bien que de soutenir des projets solos.
-    <br> Nous souhaitons voir <p class="logo" style="padding-left: 0em;padding-right: 0em;margin-bottom: 0px;"><strong> Blanc Nacarat&nbsp;</strong></p>devenir un véritable tremplin tout autant qu’une famille artistique au sein de laquelle les membres pourront s’entraider, nouer des liens et partager ce qu’ils produisent.
-    </b>
-</box>
-<box>
+<br>
+ Notre objectif ?
+<br> Mettre en avant de jeunes artistes afin de faciliter leur insertion en tant que professionnels, et, à terme, établir un véritable collectif à même de monter des projets groupés aussi bien que de soutenir des projets solos.
+<br> Nous souhaitons voir <p class="logo" style="padding-left: 0em;padding-right: 0em;margin-bottom: 0px;"><strong> Blanc Nacarat&nbsp;</strong></p>devenir un véritable tremplin tout autant qu’une famille artistique au sein de laquelle les membres pourront s’entraider, nouer des liens et partager ce qu’ils produisent.
+<br>
     <b style ="display: flex;">
         <p style="margin-bottom: 0px;text-align:center;"> Noëmie - Antoine - Paul </p>
     </b>
-</box>
 
 
 
