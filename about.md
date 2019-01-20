@@ -1,12 +1,31 @@
 ---
 layout: page
-title: Jekyll Theme - About - Massively
+title: À propos de nous.
 description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
 ---
+<blockquote><b> Nous sommes un jeune label indépendant pour musiciens, vidéastes, auteurs, photographes et graphistes.
+    <br>
+    <p class="logo" style="padding-left: 0em;padding-right: 0em;margin-bottom: 0px;"><strong> Blanc Nacarat&nbsp;</strong></p>se veut une structure polyvalente accueillant non seulement des musiciens dans le champ de la musique électronique mais également des artistes travaillant sur d’autres supports afin de proposer une offre culturelle jeune et variée tout en croisant plusieurs disciplines artistiques.
+</b></blockquote>
+
+<blockquote>
+    <b> Notre objectif ?
+    <br> Mettre en avant de jeunes artistes afin de faciliter leur insertion en tant que professionnels, et, à terme, établir un véritable collectif à même de monter des projets groupés aussi bien que de soutenir des projets solos.
+    <br> Nous souhaitons voir <p class="logo" style="padding-left: 0em;padding-right: 0em;margin-bottom: 0px;"><strong> Blanc Nacarat&nbsp;</strong></p>devenir un véritable tremplin tout autant qu’une famille artistique au sein de laquelle les membres pourront s’entraider, nouer des liens et partager ce qu’ils produisent.
+    </b>
+</blockquote>
+<blockquote>
+    <b style ="display: flex;">
+        <p style="margin-bottom: 0px;text-align:center;"> Noëmie - Antoine - Paul </p>
+    </b>
+</blockquote>
+
+
+
 ## About our Site
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
