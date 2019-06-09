@@ -48,7 +48,8 @@
 	$('.ml11 .letters').each(function(){
 	  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 	});
-	ml.timelines["ml11"] = anime.timeline({loop: false})
+
+	anime.timeline({loop: true})
 	  .add({
 	    targets: '.ml11 .line',
 	    scaleY: [0,1],
