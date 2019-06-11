@@ -1,0 +1,34 @@
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="{{ site.url }}"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<nav id="menu">
+
+	<!-- Version Anglaise -->
+	{% if page.lang == "en" %}
+	<ul class="links">
+        	<li><a href="{{ "" | absolute_url }}{{ page.lang }}">Home</a></li>
+        	<li><a href="{{ site.url }}/en/contact">Contact</a></li>
+    </ul>
+    <ul class="actions vertical">
+    	<li><a href="{{ site.url }}/fr" class="button special fit">Voir le site en français</a></li>
+	</ul>
+	{% endif %}
+
+	<!-- Version Française -->
+	{% if page.lang == "fr" %}
+	<ul class="links">
+        	<li><a href="{{ "" | absolute_url }}{{ page.lang }}">Accueil</a></li>
+        	<li><a href="{{ site.url }}/fr/contact">Contact</a></li>
+    </ul>
+    <ul class="actions vertical">
+    	<li><a href="{{ site.url }}/en" class="button special fit">Switch to english</a></li>
+	</ul>
+	{% endif %}
+</nav>
