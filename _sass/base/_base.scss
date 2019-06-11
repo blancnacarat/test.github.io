@@ -25,11 +25,11 @@ html {
  * Basic styles for links
  */
 a {
-  color: $accent5;
+  color: $dark-red;
   text-decoration: none;
 
   @include on-event {
-    color: $accent4;
+    color: $red;
     text-decoration: underline;
   }
 }
