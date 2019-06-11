@@ -1,7 +1,7 @@
 # Site
-title:              Blanc Nacarat Magazine
-bio:                'Blanc Nacarat Magazine'
-description:        "Blanc Nacarat Magazine"
+title:              Blanc Nacarat
+bio:                'Blanc Nacarat'
+description:        "Blanc Nacarat"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
