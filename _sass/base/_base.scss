@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 
   @include on-event {
-    color: $red;
+    color: _palette(red);
     text-decoration: underline;
   }
 }
