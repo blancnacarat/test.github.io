@@ -4,8 +4,6 @@
 
 
 
-
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
@@ -20,8 +18,6 @@ $max-width: 1180px !default;
 
 
 
-
-
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
@@ -32,12 +28,23 @@ $breakpoints: (
 ) !default;
 
 
-
-
-
-
 /// Relative or absolute URL where all assets are served from
 /// @type String
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
+
+
+
+
+// Palette.
+
+$palette:(
+
+	white :#FFFFFF,
+	casse :#FFF9F3,
+	beige :#FFF1E2,
+	red :#FF0F53,
+	dark-red :#B20A3A,
+
+);
