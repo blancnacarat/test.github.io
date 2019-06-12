@@ -25,11 +25,11 @@ html {
  * Basic styles for links
  */
 a {
-  color: _palette(dark-red);
+  color: $dark-red;
   text-decoration: none;
 
   @include on-event {
-    color: _palette(red);
+    color: $red;
     text-decoration: underline;
   }
 }
