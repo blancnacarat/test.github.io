@@ -20,13 +20,13 @@ $.ajax({
         	console.log("test");
         	console.log(language);
         	setTimeout(function() {
-  			window.location.href = "https://blancnacarat.com/fr/";
+  			window.location.href = "https://test.blancnacarat.com/fr/";
 			}, 2200);
         } else{
         	console.log("test else");
         	console.log(language);
         	setTimeout(function() {
-  			window.location.href = "https://blancnacarat.com/en/";
+  			window.location.href = "https://test.blancnacarat.com/en/";
 			}, 2200);
         }
     }, error: function() {
@@ -48,13 +48,13 @@ $.ajax({
         	console.log("test");
         	console.log(language);
         	setTimeout(function() {
-  			window.location.href = "https://blancnacarat.com/fr/";
+  			window.location.href = "https://test.blancnacarat.com/fr/";
 			}, 2200);
         } else{
         	console.log("test else");
         	console.log(language);
         	setTimeout(function() {
-  			window.location.href = "https://blancnacarat.com/en/";
+  			window.location.href = "https://test.blancnacarat.com/en/";
 			}, 2200);
     }
    	}
