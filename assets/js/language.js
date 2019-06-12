@@ -15,6 +15,7 @@ $.ajax({
     		language = language.split('_')[0];
 		}
 		console.log(language);
+
         //nowDoSomethingWithIt(language);
         if (language == 'fr'){
         	console.log("test");
@@ -43,7 +44,8 @@ $.ajax({
     		language = language.split('_')[0];
 		}
 		console.log(language);
-        //nowDoSomethingWithIt(language);
+
+       //nowDoSomethingWithIt(language);
         if (language == 'fr' || language == 'fr-be' || language == 'fr-ca' || language == 'fr-fr' || language == 'fr-lu' || language == 'fr-mc' || language == 'fr-ch'){
         	console.log("test");
         	console.log(language);
