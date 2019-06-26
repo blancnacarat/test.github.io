@@ -7,15 +7,15 @@
 <link rel="stylesheet" type="text/css" href="https://test.blancnacarat.com/assets/css/main.css">
 
 <script type="text/javascript">
-	/* Open */
-function openNav() {
-  document.getElementById("container_menu").style.display = "block";
-}
+$(document).ready(function() {
+  $('.open-menu').on('click', function() {
+     $('.overlay').addClass('open');
+  });
 
-/* Close */
-function closeNav() {
-  document.getElementById("container_menu").style.display = "none";
-}
+  $('.close-menu').on('click', function() {
+    $('.overlay').removeClass('open');
+  });
+});
 </script>
 
 <style id="applicationStylesheet" type="text/css">
@@ -63,10 +63,10 @@ function closeNav() {
 		<span>© blanc nacarat. 2019</span>
 	</div>
 	<div id="FR">
-		<span>FR</span>
+		<a href="">FR</a>
 	</div>
 	<div id="EN">
-		<span>EN</span>
+		<a href="">EN</a>
 	</div>
 	<svg class="Ligne_1">
 		<path id="Ligne_1" d="M 0 0 L 19 0">
