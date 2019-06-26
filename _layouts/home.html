@@ -45,7 +45,7 @@
 		<span>label & collectif artistique</span>
 	</div>
 	<div id="menu">
-		<span>menu.</span>
+		<span onclick="openNav()">menu.</span>
 	</div>
 	<div id="copyright">
 		<span>© blanc nacarat. 2019</span>
@@ -65,5 +65,23 @@
 		</path>
 	</svg>
 </div>
+
+<!-- The overlay -->
+<div id="container_menu" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close.</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">about us.</a>
+    <a href="#">équipe.</a>
+    <a href="#">discovery.</a>
+    <a href="#">playlists.</a>
+    <a href="#">contact.</a>
+  </div>
+
+</div>
+
 </body>
 </html>
