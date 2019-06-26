@@ -198,6 +198,12 @@
   transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
