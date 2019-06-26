@@ -110,6 +110,11 @@
     font-size: 1.1vw;
     color: rgba(255,15,83,1);
 }
+.a{
+    font-family: kollektifregular;
+    font-size: 1.3vw;
+    color: rgba(255,15,83,1);
+}
 #FR {
     opacity: 1;
     position: absolute;
