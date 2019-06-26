@@ -211,6 +211,7 @@
     text-decoration: none;
     font-size: 7vw;
     color: rgba(255,249,243,1);
+    font-family: kollektifbold_italic;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
 }

@@ -6,6 +6,18 @@
 <title>home</title>
 <link rel="stylesheet" type="text/css" href="https://test.blancnacarat.com/assets/css/main.css">
 
+<script type="text/javascript">
+	/* Open */
+function openNav() {
+  document.getElementById("container_menu").style.display = "block";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("container_menu").style.display = "none";
+}
+</script>
+
 <style id="applicationStylesheet" type="text/css">
 	body {
 		margin: 0;
@@ -44,7 +56,7 @@
 	<div id="subtitle">
 		<span>label & collectif artistique</span>
 	</div>
-	<div id="menu">
+	<div onclick="openNav()" id="menu">
 		<span onclick="openNav()">menu.</span>
 	</div>
 	<div id="copyright">
@@ -82,17 +94,7 @@
   </div>
 
 </div>
-<script type="text/javascript">
-	/* Open */
-function openNav() {
-  document.getElementById("container_menu").style.display = "block";
-}
 
-/* Close */
-function closeNav() {
-  document.getElementById("container_menu").style.display = "none";
-}
-</script>
 
 </body>
 </html>
