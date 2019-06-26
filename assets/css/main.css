@@ -42,3 +42,139 @@
     font-style: normal;
 
 }
+
+#title {
+    opacity: 1;
+    position: absolute;
+    left: 18vw;
+    top: 38vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 53vw;
+    height: 14.9vh;
+    text-align: left;
+    font-family: kollektifbold_italic;
+    font-size: 7.5em;
+    color: rgba(255,15,83,1);
+    letter-spacing: -0.4px;
+}
+#subtitle {
+    opacity: 1;
+    position: absolute;
+    left: 18vw;
+    top: 53vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 50vw;
+    height: 24vh;
+    text-align: left;
+        font-family: kollektifregular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4.7em;
+        color: rgba(255,15,83,1);
+    }
+    #menu {
+        opacity: 1;
+        position: absolute;
+        left: 85vw;
+        top: 4vh;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        width: 181px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: kollektifregular;
+        font-size: 4.7em;
+        color: rgba(255,15,83,1);
+    }
+    #copyright {
+        opacity: 1;
+        position: absolute;
+        left: -0.5px;
+        top: 1028.5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 1864px;
+        height: 82px;
+        text-align: right;
+        font-family: kollektifbold_italic;
+        font-size: 1.1vw;
+        color: rgba(255,15,83,1);
+    }
+    #FR {
+        opacity: 1;
+        position: absolute;
+        left: 43px;
+        top: 53px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 2vw;
+        height: 2.4vh;
+        text-align: left;
+        font-family: kollektifregular;
+        font-size: 1.3vw;
+        color: rgba(255,15,83,1);
+    }
+    #EN {
+        opacity: 1;
+        position: absolute;
+        left: 106px;
+        top: 53px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 2vw;
+        height: 2.4vh;
+        text-align: left;
+        font-family: kollektifregular;
+        font-size: 1.3vw;
+        color: rgba(255,15,83,1);
+    }
+    #Ligne_1 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(255, 15, 83);
+        stroke-width: 4px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Ligne_1 {
+        overflow: visible;
+        position: absolute;
+        top: 64.5px;
+        left: 80.5px;
+        width: 19px;
+        height: 4px;
+    }
+    #Ligne_2 {
+        opacity: 1;
+        fill: transparent;
+        stroke: rgb(255, 15, 83);
+        stroke-width: 4px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Ligne_2 {
+        overflow: visible;
+        position: absolute;
+        top: 82.5px;
+        left: 42.5px;
+        width: 32px;
+        height: 4px;
+    }
