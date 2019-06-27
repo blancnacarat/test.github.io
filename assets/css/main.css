@@ -48,7 +48,7 @@
 #FR, #EN {
     opacity: 1;
     position: absolute;
-    overflow: hidden;
+    overflow: visible;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
