@@ -61,7 +61,7 @@
     width: 53vw;
     height: 14.9vh;
     font-family: kollektifbold_italic;
-    font-size: 7.5em;
+    font-size: 4.2vw;
     letter-spacing: -0.4px;
 }
 #subtitle {
@@ -70,7 +70,7 @@
     width: 50vw;
     height: 24vh;
     font-family: kollektifregular;
-    font-size: 4.7em;
+    font-size: 3.8vw;
 }
 #menu {
     left: 85vw;
@@ -78,7 +78,7 @@
     width: 181px;
     white-space: nowrap;
     font-family: kollektifregular;
-    font-size: 4.7em;
+    font-size: 3.8vw;
 }
 #copyright {
     left: -0.5px;
