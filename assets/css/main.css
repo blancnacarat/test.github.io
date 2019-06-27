@@ -43,109 +43,76 @@
 
 }
 
-#title {
+#title, #subtitle,
+#menu, #copyright,
+#FR, #EN {
     opacity: 1;
     position: absolute;
-    left: 18vw;
-    top: 38vh;
+    overflow: hidden;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    text-align: left;
+    color: rgba(255,15,83,1);
+}
+#title {
+    left: 18vw;
+    top: 38vh;
     width: 53vw;
     height: 14.9vh;
-    text-align: left;
     font-family: kollektifbold_italic;
     font-size: 7.5em;
-    color: rgba(255,15,83,1);
     letter-spacing: -0.4px;
 }
 #subtitle {
-    opacity: 1;
-    position: absolute;
     left: 18vw;
     top: 53vh;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     width: 50vw;
     height: 24vh;
-    text-align: left;
     font-family: kollektifregular;
-    font-style: normal;
-    font-weight: normal;
     font-size: 4.7em;
-    color: rgba(255,15,83,1);
 }
 #menu {
-    opacity: 1;
-    position: absolute;
     left: 85vw;
     top: 4vh;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
     width: 181px;
     white-space: nowrap;
-    text-align: left;
     font-family: kollektifregular;
     font-size: 4.7em;
-    color: rgba(255,15,83,1);
 }
 #copyright {
-    opacity: 1;
-    position: absolute;
     left: -0.5px;
     top: 1028.5px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     width: 1864px;
     height: 82px;
-    text-align: right;
+    text-align: right !important;
     font-family: kollektifbold_italic;
     font-size: 1.1vw;
-    color: rgba(255,15,83,1);
-}
-.a{
-    font-family: kollektifregular;
-    font-size: 1.3vw;
-    color: rgba(255,15,83,1);
 }
 #FR {
-    opacity: 1;
-    position: absolute;
     left: 43px;
     top: 53px;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     width: 2vw;
     height: 2.4vh;
-    text-align: left;
     font-family: kollektifregular;
     font-size: 1.3vw;
-    color: rgba(255,15,83,1);
 }
 #EN {
-    opacity: 1;
-    position: absolute;
     left: 106px;
     top: 53px;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     width: 2vw;
     height: 2.4vh;
-    text-align: left;
     font-family: kollektifregular;
     font-size: 1.3vw;
-    color: rgba(255,15,83,1);
+}
+.a{
+    font-family: kollektifregularn !important;
+    font-size: 1.3vw;
+    color: rgba(255,15,83,1) !important;
 }
 #Ligne_1 {
     opacity: 1;
@@ -182,70 +149,4 @@
     left: 42.5px;
     width: 32px;
     height: 4px;
-}
-
-/* The Overlay (background) */
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: rgba(255,15,83,1);
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
-
-.overlay.open {
-  opacity: 1;
-  visibility: visible;
-  height: 100%;
-}
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-decoration: none;
-    font-size: 7vw;
-    color: rgba(255,249,243,1);
-    font-family: kollektifbold_italic;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
 }
