@@ -53,7 +53,7 @@
     margin: 0;
     padding: 0;
     text-align: left;
-    color: rgba(255,15,83,1);
+    color: rgba(255,15,83,1) !important;
 }
 #title {
     left: 18vw;
@@ -109,11 +109,7 @@
     font-family: kollektifregular;
     font-size: 1.3vw;
 }
-.a{
-    font-family: kollektifregularn !important;
-    font-size: 1.3vw;
-    color: rgba(255,15,83,1) !important;
-}
+
 #Ligne_1 {
     opacity: 1;
     fill: transparent;
